@@ -67,35 +67,6 @@ At startup, the TUI shows a simple menu. Commands found in the source include:
 - **Exceptions** — `NetworkException`, `RoutingException`, `PayloadException` provide failure signaling.
 
 
-## Repository layout
-
-**AppLayer/**
-  └─ TUI.java
-**LinkLayer/**
-  └─ CSMA.java
-  └─ Client.java
-  └─ LinkLayer.java
-  └─ Message.java
-  └─ Receiver.java
-**Model/**
-  └─ LAYER.java
-  └─ LayerModel.java
-  └─ Packet.java
-  └─ PacketParser.java
-**Model.Exceptions/**
-  └─ NetworkException.java
-  └─ PayloadException.java
-  └─ RoutingException.java
-**NetworkLayer/**
-  └─ AddressHeader.java
-  └─ DA_Header.java
-  └─ DV_Header.java
-  └─ NetworkLayer.java
-**NetworkLayer.DA/**
-  └─ DynamicAddressing.java
-  └─ Node.java
-
-
 
 ## Notes
 
